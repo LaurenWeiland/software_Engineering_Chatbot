@@ -1,5 +1,6 @@
 $(function() {
   var INDEX = 0; 
+  const textsLog = [];
   $("#chat-submit").click(function(e) {
     e.preventDefault();
     var msg = $("#chat-input").val(); 
@@ -39,7 +40,9 @@ $(function() {
     if(type == 'self'){
      $("#chat-input").val(''); 
     }    
-    $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);    
+    $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);  
+    textsLog.push(msg);
+    console.log(textsLog);
   }  
   
   function generate_button_message(msg, buttons){    

@@ -1,0 +1,28 @@
+{"intents": [
+	{"tag": "greetings",
+	 "patterns": ["hello", "hey","hi","good day","what's up?", "top of the morning", "yo"],
+	 "responses": ["Hello! I am AuggieBot. How may I assist you?", "Greetings, how may I help?"]},
+	
+	{"tag": "offices",
+	 "patterns": ["academic advising", "URGO", "McNair", "Computer Science"],
+	 "responses": ["I see you're asking about an office"]},
+
+	 {"tag": "URGO",
+	  "patterns": ["Dixie Shafer", "URGO", "research programs", "graduate school", "Rebekah DuPont", "graduation"],
+	  "responses": ["The URGO Office is located in Hagfors 101. If you have any questions please email the URGO office at URGO@augsburg.edu"]
+	 },
+
+	 {"tag": "Academic Advising"},
+
+	 {"tag": "McNair"},
+
+	 {"tag": "Computer Science Department"},
+
+	 {"tag": "Among Us",
+	  "patterns": ["AMOGUS", "among us", "imposter", "sus", "do you want to play Among Us?"],
+	  "responses": ["AMOGUS", "Squid Gaem"]},
+	 
+	 {"tag": "Authors",
+	 "patterns": ["Who made you?", "What were you made for?", "What is your purpose?"],
+	 "responses": ["I was designed by Dagi Girma, Adam El-Alti, Gabriel Daum, and Lauren Weiland as a resource chatbot! How can I help?"]}
+]}

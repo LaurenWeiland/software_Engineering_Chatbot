@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Augsburg",
+      "patterns": [
+        "What is Augsburg?",
+        "Where is Augsburg located?",
+        "Does Augsburg offer graduate classes?"
+      ],
+      "responses": [
+        "Augsburg University is located in Minneapolis Minnesota, it now offers undergraduate and graduate level degrees.",
+        "Augsburg University is a private university in Minneapolis in a diverse neighborhood at the heart of the city"
+      ]
+    },
+    {
+      "tag": "URGO",
+      "patterns": [
+        "What is urgo?",
+        "Who is Dixie Shafer?",
+        "Dixie Shafer", "URGO", "research programs", "graduate school", "Rebekah DuPont", "graduation"
+      ],
+      "responses": [
+        "The URGO Office is located in Hagfors 101. If you have any questions please email the URGO office at URGO@augsburg.edu"
+      ]
+    },
+    {
+      "tag": "Academic Advising",
+      "patterns": [
+        "I'm failing", "registrar", "academic advising", "transfer"
+      ],
+      "responses": [
+        "The academic advising office is located in the Lindell Library on the second floor. Please contact them at advising@augsburg.edu"
+      ]
+    },
+    {
+      "tag": "McNair",
+      "patterns": [
+        "McNair", 
+        "What is McNair?"
+      ],
+      "responses": [
+        "McNair is associated with URGO."
+      ]
+    },
+    {"tag": "Computer Science Department",
+	  "patterns": ["computer science", "Steinmetz", "python", "Larson", "machine learning"],
+	  "responses": ["The computer science department is in Hagfors 341. Come chat some time!"]
+  },
+  {"tag": "Authors",
+	 "patterns": ["Who made you?", "What were you made for?", "What is your purpose?"],
+	 "responses": ["I was designed by Dagi Girma, Adam El-Alti, Gabriel Daum, and Lauren Weiland as a resource chatbot! How can I help?"]
+  }
+  ]
+}

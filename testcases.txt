@@ -1,0 +1,10 @@
+Test Cases
+greetings: 
+
+	*inputs*
+	Hi
+	Hello
+	Sup? <- Not programmed 
+	Hello? <- Variation on programmed input
+
+expected responses: 
